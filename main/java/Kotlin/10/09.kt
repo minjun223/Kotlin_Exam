@@ -68,6 +68,7 @@ class RunableCar(engine: String, body: String){
     fun drive(){
         println("달립니다!")
     }
+    //$가 인트형 출력
     fun navi(destination: String){
         println("$destination 으로 목적지가 설정되었습니다.")
     }
